@@ -1,0 +1,30 @@
+{
+  "name": "ui-grid-css",
+  "version": "1.0.0",
+  "description": "UI Improvements for UI Grid",
+  "main": "dist/ui-grid-custom.css",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aurbano/ui-grid-css.git"
+  },
+  "keywords": [
+    "ui",
+    "grid",
+    "css",
+    "sass",
+    "custom"
+  ],
+  "author": "Alejandro U. Alvarez",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/aurbano/ui-grid-css/issues"
+  },
+  "homepage": "https://github.com/aurbano/ui-grid-css#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-sass": "^3.1.0"
+  }
+}

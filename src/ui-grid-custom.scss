@@ -1,8 +1,10 @@
-/* UI Grid customization */
+@import 'variables';
+
 .gridStyle {
   border: none;
-  height: 615px
+  height: 615px;
 }
+
 .ui-grid-row {
 
   height:auto !important;
@@ -80,9 +82,6 @@
   background-color: transparent;
   border-right: none;
   border-bottom: none;
-  -webkit-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
   user-select: none;
   width: 0;
 }
@@ -199,7 +198,6 @@ input[type="text"].ui-grid-filter-input{
 .ui-grid-focuser:focus {
   border-color: inherit;
   outline: 0;
-  -webkit-box-shadow: none;
   box-shadow: none;
 }
 
@@ -209,7 +207,6 @@ input[type="text"].ui-grid-filter-input{
   border-radius: 50%;
   padding: 2px 0 2px 4px;
   height: auto;
-  -webkit-transition: background .12s ease-out;
   transition: background .12s ease-out;
 
   &:hover{
@@ -230,8 +227,6 @@ input[type="text"].ui-grid-filter-input{
     .ui-grid-menu-inner {
       border: none;
       background: #fff;
-      -webkit-box-shadow: none;
-      -moz-box-shadow: none;
       box-shadow: none;
 
       ul li {
@@ -241,13 +236,10 @@ input[type="text"].ui-grid-filter-input{
       }
 
       ul li button {
-        -webkit-transition: background .12s ease-out,border .12s ease-out,color .12s ease-out,opacity .12s ease-out;
         transition: background .12s ease-out,border .12s ease-out,color .12s ease-out,opacity .12s ease-out;
 
         &:hover,
         &:focus {
-          -webkit-box-shadow: none;
-          -moz-box-shadow: none;
           box-shadow: none;
           background: $background-lighter;
         }

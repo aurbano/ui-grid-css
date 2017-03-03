@@ -1,7 +1,7 @@
 // Colors
 $invalid: #f66;
 
-$brand-primary: #0f8ec7;
+$brand-primary: #59bcff;
 $brand-primary-contrast: #fff;
 $brand-primary-hover: lighten($brand-primary, 10%);
 $brand-primary-light: #cbd9e6;
@@ -19,22 +19,3 @@ $paragraph-dark: darken($paragraph, 25%);
 $paragraph-light: lighten($paragraph, 25%);
 $paragraph-lighter: lighten($paragraph, 50%);
 $paragraph-muted: lighten($paragraph, 75%);
-
-$main-blue: $brand-primary;
-$main-green: #689F38;
-$main-purple: #7B1FA2;
-$main-orange: #FFA000;
-$main-red: #E64A19;
-
-$property: $main-green;
-$requirement: $main-purple;
-$vulnerability: $main-orange;
-$risk: $main-red;
-
-$highlight-blue: #1075c1;
-$highlight-green: #00bb0e;
-$highlight-brown: #ae6400;
-$highlight-orange: #dfa300;
-$highlight-red: #ea4000;
-$highlight-purple: #a17ac6;
-$highlight-purple-dark: #677bc6;
