@@ -7,6 +7,9 @@ Some improvements over UI Grid. Just load the CSS after theirs to override the s
 <link rel="stylesheet" href="/path/to/ui-grid-custom.css" type="text/css">
 ```
 
+## [Demo](https://urbanoalvarez.es/ui-grid-css/)
+*Note: The demo reports being insecure because ui-grid.info has a broken certificate (last time I checked)*
+
 ## NPM
 
 You can install this via NPM:
