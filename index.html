@@ -8,9 +8,10 @@
     <script src="http://ui-grid.info/docs/grunt-scripts/pdfmake.js"></script>
     <script src="http://ui-grid.info/docs/grunt-scripts/vfs_fonts.js"></script>
     <script src="http://ui-grid.info/release/ui-grid.js"></script>
+    <script src="https://use.fontawesome.com/63ed9a0161.js"></script>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <link rel="stylesheet" href="http://ui-grid.info/release/ui-grid.css" type="text/css">
-    <link rel="stylesheet" href="custom-ui-grid.css" type="text/css">
+    <link rel="stylesheet" href="dist/ui-grid-custom.css" type="text/css">
   </head>
   <body>
     <nav class="navbar navbar-default">
@@ -38,7 +39,7 @@
     <div ng-controller="MainCtrl">
       <div class="container">
         <h1>Simple example</h1>
-        <div id="grid1" ui-grid="{ data: myData }" class="grid"></div>
+        <div id="grid1" ui-grid="gridConfig" class="grid"></div>
       </div>
     </div>
 
