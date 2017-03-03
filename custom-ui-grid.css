@@ -1,0 +1,195 @@
+.gridStyle {
+    border: none;
+    height: 615px
+}
+.gridStyle a:focus, .gridStyle div:focus{
+    outline:none;
+}
+.ui-grid-row:nth-child(odd) .ui-grid-cell{
+    background:#fff;
+}
+.ui-grid-row:nth-child(even) .ui-grid-cell{
+    background:#fff;
+}
+.ui-grid-cell{
+    border-right:none;
+    border-bottom: 1px solid #efefef;
+    padding: 5px 0;
+    height: auto !important;
+}
+.ui-grid-cell span{
+    display:inline-block;
+}
+.ui-grid-row{
+    height:auto !important;
+    overflow: hidden;
+}
+.ui-grid-top-panel-background {
+    background: #cbd9e6;
+}
+.ui-grid-top-panel {
+    position: relative;
+    overflow: hidden;
+    font-weight: bold;
+    background: #eff5fc;
+    background-clip: padding-box;
+}
+.ui-grid-top-panel{
+    background:#FEFEFE;
+}
+.ui-grid-header{
+    border-bottom:none;
+}
+.ui-grid-header-cell {
+    position: relative;
+    float: left;
+    top: 0;
+    bottom: 0;
+    background-color: transparent;
+    border-right: none;
+    border-bottom: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    width: 0;
+}
+.ui-grid-filter-container{
+    padding:0;
+    margin-top:-10px;
+}
+.ui-grid-filter-container:after{
+    content: "\f040";
+    position: absolute;
+    color: #ccc;
+    z-index: 1;
+    right: 3px;
+    font-family: FontAwesome;
+    font-size: 0.6em;
+    line-height: 3em;
+}
+.ui-grid-filter-container:hover:after{
+    color:#4497de;
+}
+input[type="text"].ui-grid-filter-input{
+    border-top:none;
+    border-left:none;
+    border-right:none;
+    border-bottom:solid 1px #efefef;
+    padding:3px 6px;
+    background:transparent;
+    transition:all linear 200ms;
+}
+input[type="text"].ui-grid-filter-input:hover{
+    border:inherit;
+    border-bottom:solid 1px #4497de;
+}
+.ui-grid-native-scrollbar {
+    position: absolute;
+    overflow: scroll;
+}
+.ui-grid-native-scrollbar.vertical {
+    top: 0;
+    right: 0;
+    height: 100%;
+    overflow-x: hidden;
+    width: 17px;
+}
+.ui-grid-native-scrollbar.horizontal {
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow-y: hidden;
+    height: 17px;
+}
+.ui-grid-status{
+    position: absolute;
+    bottom: 34px;
+    right: 0;
+    padding: 2px 10px;
+    background: #EDEDE3;
+    border-top-left-radius: 4px;
+    font-size: 1.2rem;
+    text-align: right;
+}
+.ui-grid-clickable-row{
+    color:inherit;
+}
+.ui-grid-clickable-row .ui-grid-cell{
+    transition:all linear 100ms;
+}
+.ui-grid-clickable-row:hover .ui-grid-cell{
+    background-color: rgba(0,166,255,0.1) !important;
+}
+.ui-grid-cell-contents:focus{
+    background-color:transparent;
+    outline: none;
+}
+.ui-grid-pager-control button {
+    height: 25px;
+    min-width: 26px;
+    background: #fff;
+    border: none;
+    line-height: 1em;
+    cursor: pointer;
+    padding-bottom: 12px;
+}
+.ui-grid-pager-control button[disabled] div{
+    border-left-color: #ccc;
+    border-right-color: #ccc;
+}
+.ui-grid-pager-control input {
+    border: none;
+    border-bottom: solid 2px #efefef;
+    padding: 2px 6px;
+    margin: 0;
+    transition:all linear 200ms;
+}
+.ui-grid-pager-control input:hover, .ui-grid-pager-control input:focus{
+    border:inherit;
+    border-bottom: solid 2px #4497de;
+}
+.ui-grid-native-scrollbar{
+    overflow-x:auto;
+}
+.ui-grid-cell-focus{
+    background:none;
+}
+.ui-grid-viewport{
+    overflow: auto !important;
+}
+.ngClickableCell{
+    color: #223e6e !important;
+    text-align: center;
+    cursor: pointer;
+    font-weight: bold;
+}
+.ngClickableCell:hover{
+    background-color: rgba(0,166,255,0.2) !important;
+}
+/*
+ * Context menu
+ */
+ .ui-grid-column-menu-button:hover{
+	color:#0777cc;
+ }
+ .ui-grid-column-menu-button:focus{
+	outline: none; 
+ }
+ .ui-grid-menu .ui-grid-menu-inner{
+	-webkit-box-shadow: 1px 2px 7px rgba(0, 0, 0, 0.3);
+	-moz-box-shadow: 1px 2px 7px rgba(0, 0, 0, 0.3);
+	box-shadow: 1px 2px 7px rgba(0, 0, 0, 0.3);
+	background: #FEFEFE;
+	top: -1px;
+ }
+ .ui-grid-menu .ui-grid-menu-inner ul li:hover {
+	-webkit-box-shadow: none;
+	-moz-box-shadow: none;
+	box-shadow: none;
+	background-color: #4497DE;
+	color: #fff;
+}
+ .ui-grid-menu .ui-grid-menu-inner ul li{
+	margin: 0;
+}
