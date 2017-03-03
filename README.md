@@ -10,6 +10,12 @@ Some improvements over UI Grid. Just load the CSS after theirs to override the s
 ## [Demo](https://urbanoalvarez.es/ui-grid-css/)
 *Note: The demo reports being insecure because ui-grid.info has a broken certificate (last time I checked)*
 
+![Normal UI Grid](https://github.com/aurbano/ui-grid-css/raw/master/demo/normal.png "A normal UI Grid")
+> A normal UI Grid with the custom CSS applied
+
+![Clickable rows UI Grid](https://github.com/aurbano/ui-grid-css/raw/master/demo/clickable.png "Clickable rows UI Grid")
+> UI Grid with clickable rows enabled
+
 ## NPM
 
 You can install this via NPM:
